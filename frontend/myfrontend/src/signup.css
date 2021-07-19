@@ -1,0 +1,104 @@
+.signupForm {
+  background-color: rgb(194, 64, 64);
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+}
+
+.suPage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.9)),
+    url("./media/moviebg1.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupTitle {
+  color: #eee;
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.suformContainer {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.suc1 {
+  margin-top: 40px;
+}
+
+.suc2 {
+  margin-top: 30px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.labels {
+  background-color: rgb(194, 64, 64);
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -10px;
+  transform: translateY(0);
+  width: 76px;
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+}
+
+.suinputBox {
+  background-color: #f76161;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+  text-align: left;
+}
+
+.susubmitButton {
+  background-color: rgb(153, 10, 22);
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+}
+
+.susubmitButton:active {
+  background-color: rgb(87, 6, 13);
+}
+
+.backButton {
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  /* border-radius: 5px;
+  border: 0;
+  box-sizing: border-box; */
+  cursor: pointer;
+  color: #eee;
+  /* background-color: rgb(153, 10, 22); */
+  text-decoration-line: none;
+}
