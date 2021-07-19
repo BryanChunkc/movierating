@@ -1,0 +1,136 @@
+* {
+  text-align: center;
+}
+
+html {
+  margin-top: 0em;
+}
+
+.bg {
+  background-image: linear-gradient(#680909 0%, #fd57be 100%);
+}
+
+.lbcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.items {
+  order: 5;
+  flex-grow: 4;
+  flex-shrink: 3;
+  flex-basis: auto;
+  opacity: 0.7;
+  transition: opacity 200ms ease;
+  padding-bottom: 10px;
+}
+
+.items:hover {
+  opacity: 1;
+}
+
+.images {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.ratingForm {
+  padding-top: 5px;
+  /* padding-bottom: 10px; */
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: crimson;
+  margin: auto;
+  width: 10rem;
+}
+
+.rateButton {
+  background-color: rgb(153, 10, 22);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.ratingLabel {
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+.ratingBox {
+  width: 20px;
+  background-color: #f76161;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  width: 100%;
+}
+
+.ratingBox::placeholder {
+  font-size: 12px;
+  text-align: auto;
+}
+
+.ratingBox::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+.signoutButton {
+  position: absolute;
+  top: 18px;
+  right: 30px;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #eee;
+  background-color: rgb(153, 10, 22);
+  text-decoration-line: none;
+}
+
+.welcomeMSG {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Pacifico", cursive;
+  color: #eee;
+  text-shadow: #f76161 1px 0 9px;
+}
+
+.error {
+  color: aqua;
+  font-size: 1.5rem;
+}
+
+/* large tablet */
+@media screen and (max-width: 1100px) {
+  .welcomeMSG {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 927px) {
+  .welcomeMSG {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }
+}
+
+.usernameDisplay {
+  color: #eee;
+  position: absolute;
+  top: 58px;
+  right: 32px;
+}
